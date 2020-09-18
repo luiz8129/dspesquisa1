@@ -20,6 +20,7 @@ import com.devsuperior.dspesquisa.entities.enums.Platform;
 public class Game implements Serializable {
 	private static final long serialVersionUID = 1L;
 
+	@SuppressWarnings("unused")
 	private static final String mappedBy  = null; 
    
 	@Id
